@@ -1,0 +1,3 @@
+[submodule "Myclass"]
+	path = Myclass
+	url = https://github.com/MayavanKrishnanD/StudentClass.git
