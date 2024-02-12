@@ -4,3 +4,6 @@
 [submodule "Studentclass1"]
 	path = Studentclass1
 	url = https://github.com/MayavanKrishnanD/Studentclasses.git
+[submodule "Student"]
+	path = Student
+	url = https://github.com/MayavanKrishnanD/Student1.git
