@@ -14,11 +14,11 @@ import lombok.Setter;
 public class Student {
     @Id
     @GeneratedValue
-    @Column(name = "Student_id ")
+    @Column(name = "Student_id")
 
 
     private Long id;
-    @Column(name = "Student_name  ")
+    @Column(name = "Student_name")
     private String name;
 
 }

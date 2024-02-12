@@ -1,5 +1,4 @@
 package io.springboot.myclass.controller;
-
 import io.springboot.myclass.model.Student;
 import io.springboot.myclass.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
