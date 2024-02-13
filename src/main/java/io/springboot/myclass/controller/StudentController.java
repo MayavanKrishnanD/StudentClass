@@ -19,15 +19,15 @@ public class StudentController {
         this.studentService = studentService;
     }
 
-    @PostMapping("/addStudent")
+    @PostMapping("/AddStudent")
     public  Student  addStudent(@RequestBody Student student) {
-        logger.info(" addCustomer method start");
+        logger.info(" addStudent method start");
         return studentService.saveStudent(student);
 
     }
-    @GetMapping("/getStudent")
+    @GetMapping("/GetStudent")
     public List<Student> findAllStudent(){
-        logger.info(" findAllCustomers method start");
-        return studentService.getStudent();
+        logger.info(" findAllStudent  method start");
+        return studentService.getStudents();
     }
 }
